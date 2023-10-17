@@ -7,7 +7,7 @@
 ### Modul praktikum pemrograman web
 
 * langkah pertama dalam membuatnya yaitu sebagai berikut :
-
+```python
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -28,13 +28,14 @@
 </sectionid>
     </body>
 </html>
-
+```
 * selanjutnya buka pada browser untuk melihat hasilnya
 ![gambar 1](gambar/o1.png)
 
 ### kemudian membuat  unordered list
 
 * Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada section unordered-list, seperti berikut. 
+```python
 <section id="unorder-list">
     <h2>Unordered List</h2>
     <ul type="square">
@@ -43,13 +44,14 @@
         <li>Algoritma &amp; Pemrograman</li>
     </ultype>
 </section> 
-
+```
 * selanjutnya refresh browser agar dapat melihat hasilnya
 ![gambar 2](gambar/o2.png)
 
 ### kemudian membuat description list 
 
 * Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
+```python
 <section id="unorder-list">
     <h2>Description List</h2>
     <dl>
@@ -64,14 +66,15 @@
 </section>
 </body>
 </html> 
-
+```
 * selanjutnya resfresh dan lihat hasilnya 
 ![gambar 3](gambar/o3.png)
 
 ### Selanjutnya membuat tabel
 
 * Buat file baru dengan nama lab3_tabel.html seperti berikut.
-!DOCTYPE html>
+```python
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -84,8 +87,9 @@
         </header>
     </body>
 </html lang> 
-
+```
 * Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
+```python
 <table border="1" cellpadding="4" cellspacing="0">
     <thead>
         <tr>
@@ -112,7 +116,7 @@
         </tr>
     </tbody>
     </table> 
-
+```
 ### Mengatur padding dan margin
 
 * Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan cellspacing pada tag table. 
@@ -121,6 +125,7 @@
 ### menggabungkan sel data 
 
 * Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal).
+```python
 <h2>Menggabungkan sel</h2>
     <table border="1" cellpadding="5" cellspacing="0">
         <thread>
@@ -147,13 +152,14 @@
         </table>
     </body>
 </html> 
-
+```
 * kembali lagi ke browser dan refresh agar melihat hasilnya 
 ![gambar 4](gambar/o4.png)
 
 ### Membuat form
 
 * Buat file baru dengan nama lab3_form.html seperti berikut.
+```python
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -205,11 +211,12 @@
     <a href="Tugas_3.html">Kembali ke menu</a>
     </body>
 </html> 
-
+```
 * buka kembali browser dan lihat hasilnya 
 ![gambar 5](gambar/o5.png)
 
 ### Tugas menampilkan dropdown menu dan listbox dengan multiple selection
+```python
 <!DOCTYPE html>
 <html>
     <head>
@@ -298,5 +305,5 @@
         <link rel="stylesheet" href="style_eksternal.css" type="text/css">
     </head>
 </html>
-
+```
 ![gambar 6](gambar/o6.png)
